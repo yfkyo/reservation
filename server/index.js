@@ -18,9 +18,9 @@ const app = express()
 
 app.use('/api/v1/products',productRoutes)
 
-app.get('/products',function(req,res){
-    res.json({'success':true})
-})
+// app.get('/products',function(req,res){
+//     res.json({'success':true})
+// })
 
 const PORT = process.env.PORT || '3001'
 
